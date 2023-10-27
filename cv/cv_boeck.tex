@@ -1,0 +1,342 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.8in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{brandeis}{rgb}{0.0, 0.44, 1.0}
+\hypersetup{
+    colorlinks=true,
+    linkcolor={black!50!black},
+    citecolor={black!50!black},
+    urlcolor={black!80!black}
+}
+
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[scaled=.60]{helvet}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{datetime}
+\usepackage{etaremune}
+\renewcommand\familydefault{\sfdefault}
+
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{#7}}
+
+%\address{\Large \bf Maximilian Boeck} % Your name
+%\address{Department of International Economics} % Your phone number and email
+%\address{Vienna School of International Studies}
+%\address{Favoritenstrasse 15a, 1040 Vienna, Austria} % Your address
+
+\begin{document}
+
+\vspace{-1cm}
+\par \begingroup \leftskip0em \rightskip4em
+\bfseries \LARGE Maximilian Boeck
+\par \endgroup
+
+\vspace{0.5cm}
+\par \begingroup \leftskip1em \rightskip4em
+\begin{tabular}{lp{6.3cm}l}
+Università Bocconi && E-mail: \href{mailto:maximilian.boeck@da-vienna.ac.at}{maximilian.boeck@unibocconi.it}\\
+Via Roentgen 1 && Website: \href{https://maximilian-boeck.webflow.io}{maximilian-boeck.webflow.io} \\
+I-20136 Milano &&  \monthyeardate\today \\
+\end{tabular}
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large \textsf{Research Interests}}}
+\par \begingroup \leftskip1em \rightskip2em
+Applied Macroeconomics; Monetary Economics; International Macroeconomics; Imperfect Information; Time Series Econometrics; Bayesian Analysis.
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large Academic Position}}
+\par \begingroup \leftskip1em \rightskip2em
+Postdoctoral Researcher \hfill 09/2023 -- present \\
+Universit\`{a} Bocconi
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large Education}}
+\par \begingroup \leftskip1em \rightskip2em 
+Ph.D., Economics \hfill 2019 -- 2021\\
+Vienna University of Economics and Business
+
+M.Sc., Economics \hfill 2016 -- 2018 \\
+Vienna University of Economics and Business
+
+B.Sc., Business, Economics, and Social Sciences \hfill 2013 -- 2016 \\
+Vienna University of Economics and Business
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large Research}}
+\par \begingroup \leftskip1em \rightskip2em
+
+{\large \itshape I. Articles in Referred Journals}
+\vspace{0.1cm}
+\begin{etaremune}
+    \par \begingroup \leftskip1em \rightskip2em \vspace*{-0.2cm}
+    \item A View from Outside: Sovereign CDS Volatility as an Indicator of Economic Uncertainty (with Martin Feldkircher and Burkhard Raunig), accepted for publication at \textbf{Macroeconomic Dynamics}, October 2023. \href{https://mboeck11.github.io/papers/BFR2023MD.pdf}{[Latest Version]}
+    \item The Impact of Credit Market Sentiment Shocks (with Thomas O. Z\"{o}rner), accepted for publication at \textbf{Journal of Money, Credit and Banking}, July 2023. \href{https://mboeck11.github.io/papers/BZ2023JMCB.pdf}{[Latest Version]}
+    \item BGVAR: Bayesian Global Vector Autoregressions with Shrinkage Priors in R (with Martin Feldkircher and Florian Huber), \textbf{Journal of Statistical Software}, Vol. 104(9), pp. 1--28, 2022. \href{https://doi.org/10.18637/jss.v104.i09}{[Published Version]}
+    \item The Impact of Monetary Policy on Yield Curve Expectations, (with Martin Feldkircher), \textbf{Journal of Economic Behavior \& Organization}, Vol. 119, pp. 887--901, 2021. \href{https://doi.org/10.1016/j.jebo.2021.09.044}{[Published Version]}
+    \item International Effects of Euro Area Forward Gudiance (with Martin Feldkircher and Pierre Siklos), \textbf{Oxford Bulletin of Economics and Statistics}, Vol. 83(5), pp. 1066--1110, 2021. \href{https://doi.org/10.1111/obes.12438}{[Published Version]}
+    \item The Heterogeneous Impact of Monetary Policy on the US Labor Market (with Gregor Zens and Thomas O. Z\"{o}rner), \textbf{Journal of Economic Dynamics and Control}, Vol. 119: 103989, 2020. \href{https://doi.org/10.1016/j.jedc.2020.103989}{[Published Version]}
+    \par \endgroup
+\end{etaremune}
+
+\clearpage
+{\large \itshape II. Working Papers}
+\vspace{0.1cm}
+\begin{itemize}
+    \par \begingroup \leftskip1em \rightskip2em \vspace*{-0.2cm}
+    \item Belief Distortions in Risk Premia, September 2023. \href{https://mboeck11.github.io/papers/B2023WP.pdf}{[Latest Version]}
+    \item Labor Market Institutions, Fiscal Multipliers, and Macroeconomic Volatility (with Jesus Crespo Cuaresma and Christian Glocker), September 2023. \href{https://mboeck11.github.io/papers/BCCG2023WP.pdf}{[Latest Version]} \href{https://www.cesifo.org/DocDL/cesifo1_wp9749.pdf}{[CESifo WP]}
+    \item Has Globalization Changed the International Transmission of U.S. Monetary Policy? (with Lorenzo Mori), September 2023. \href{https://mboeck11.github.io/papers/BM2023WP.pdf}{[Latest Version]}
+    \item Natural Gas Prices and Unnatural Propagation Effects: The Role of Inflation Expectations in the Euro Area (with Thomas O. Z\"{o}rner), April 2023. \href{https://mboeck11.github.io/papers/BZ2023WP.pdf}{[Latest Version]}
+    \item The Impact of Currency Carry Trade Activity on the Transmission of Monetary Policy (with Alina Steshkova and Thomas O. Z\"{o}rner), January 2023. \href{https://mboeck11.github.io/papers/BSZ2023WP.pdf}{[Latest Version]}
+    \par \endgroup
+\end{itemize}
+
+{\large \itshape III. Inactive Working Papers}
+\vspace{0.1cm}
+\begin{itemize}
+    \par \begingroup \leftskip1em \rightskip2em \vspace*{-0.2cm}
+    \item A Factor-Augmented Markov Switching (FAMS) Model (with Gregor Zens), arXiv:1904.13194 preprint, April 2019. \href{https://mboeck11.github.io/papers/ZB2019WP.pdf}{[Latest Version]}
+    \item Implications of Macroeconomic Volatility in the Euro Area (with Niko Hauzenberger, Michael Pfarrhofer, Anna Stelzer, and Gregor Zens), European Systemic Risk Board Working Paper No. 80, 2018. \href{https://mboeck11.github.io/papers/HBPSZ2018WP.pdf}{[Latest Version]}
+    \par \endgroup
+\end{itemize}
+
+{\large \itshape IV. Software}
+\vspace{0.1cm}
+\begin{itemize}
+    \par \begingroup \leftskip1em \rightskip2em \vspace*{-0.2cm}
+    \item {\bfseries BGVAR: Bayesian Global Vector Autoregressions}, R package, Version 2.5.2, URL: \url{https://cran.r-project.org/web/packages/BGVAR}
+    \par \endgroup
+\end{itemize}
+
+{\large \itshape V. General Audience}
+\vspace{0.1cm}
+\begin{itemize}
+    \par \begingroup \leftskip1em \rightskip2em \vspace*{-0.2cm}
+    \item {\it Natural Gas Prices and Unnatural Propagation Effects: The Role of Inflation Expectations in the Euro Area}, VoxEU Column, 04/2023. \href{https://cepr.org/voxeu/columns/natural-gas-prices-and-unnatural-propagation-effects-role-inflation-expectations-euro}{[Link to Column]}
+    \item {\it Wie Erwartungen unser alltägliches Handeln beeinflussen}, on how expectations shape our actions. derStandard, 05/2021.
+    \par \endgroup
+\end{itemize}
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large Presentations}}
+\par \begingroup \leftskip1em \rightskip2em
+    {\textbf{2023}: Research Seminar (Technical University Vienna); Royal Economic Society 2023 Annual Conference (RES, Glasgow); Workshop in Empirical Macroeconomics (Innsbruck); Macro Brown Bag Seminar (University of T\"{u}bingen); RSIT Brown Bag Seminar (University of T\"{u}bingen); Applied Economics Meeting (ALdE, Toledo); International Association for Applied Econometrics Annual Conference (IAAE, Oslo); 2nd Bergamo Workshop in Econometrics and Statistics (BWES, Bergamo); Annual Meeting of the Austrian Economic Association (NOeG, Salzburg); Research Seminar (\textit{invited talk}, University of Salzburg); Internal Seminar (University of Heidelberg, \textit{upcoming}); 4th HeiT\"{u}Ho Workshop (Discussant, T\"{u}bingen, \textit{upcoming}); NOeG Winter Workshop (NOeG, Vienna).
+
+    \textbf{2022}: 3rd Italian Workshop of Econometrics and Empirical Economics (IWEEE, Rimini); RCEA Conference on Recent Developments in Economics, Econometrics and Finance (RCEA, online); QuickTalks (King's College, London); ECON Theory and Policy Seminar (\textit{invited talk}, Technical University Vienna); Spring Meeting of Young Economists (SMYE, Orl\'{e}ans); 26th Annual International Conference on Macroeconomic Analysis and International Finance (ICMAIF, Crete); Lunchtime Seminar (\textit{invited talk}, WIFO, Vienna); 5th Vienna Workshop on High-Dimensional Time Series in Macroeconomics and Finance (IHS, Vienna); 4th Behavioral Macroeconomics Workshop (University of Bamberg, Germany); 12th European Seminar on Bayesian Statistics (ESOBE, Salzburg); 1st Bergamo Workshop in Econometrics and Statistics (BWES, Bergamo); Annual Meeting of the Austrian Economic Association (NOeG, Vienna), NOeG Winter Workshop (NOeG, Vienna).
+
+    \textbf{2021}: Research Seminar (\textit{invited talk}, University of Salzburg); Internal Research Seminar (Vienna University of Economics and Business); Annual Meeting of the Austrian Economic Association (NOeG, Innsbruck); 25th Annual International Conference on Macroeconomic Analysis and International Finance (ICMAIF, Crete); Young Economist Conference (YEC, Linz).
+
+    \textbf{2020}: Annual Meeting of the Austrian Economic Association (NOeG, Vienna).
+
+    \textbf{2019}: 7th WU Workshop in Applied Econometrics (WUWAETRIX, Vienna); 3rd International Conference on Econometrics and Statistics (EcoSta, Taichung); 10th European Seminar on Bayesian Econometrics (ESOBE, St. Andrews); Internal Research Seminar (Vienna University of Economics and Business); NOeG Winter Workshop (NOeG, Vienna).
+    }
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large Past Positions}}
+\par \begingroup \leftskip1em \rightskip2em 
+\par \begingroup
+Postdoctoral Fellow, Vienna School of International Studies (DA), Department of International Economics, 10/2021 -- 09/2023.
+\par \endgroup
+\par \begingroup
+Research Associate, \textit{post doc}, Vienna University of Economics and Business (WU), Department of Economics, 10/2021 -- 07/2022.
+\par \endgroup
+\par \begingroup
+Research and Teaching Associate, \textit{prae doc}, Vienna University of Economics and Business (WU), Department of Economics, Institute for Macroeconomics, 09/2019 -- 09/2021.
+\par \endgroup
+\par \begingroup
+Research Associate, \textit{prae doc}, Vienna University of Economics and Business (WU), Department of Economics, Institute for International Economics and Development, 03/2019 -- 08/2020.
+\par \endgroup
+\par \begingroup
+Research Assistant, Oesterreichische Nationalbank (OeNB), Economic Analysis \& Research Department, Economic Studies Division, 09/2018-02/2019.
+\par \endgroup
+\par \begingroup 
+Research Assistant, University of Vienna (univie), Faculty of Social Sciences, Department of Government, 02/2018-03/2019.
+\par \endgroup
+\par \begingroup
+Project Assistant, University of Vienna (univie), Faculty of Social Sciences, Department of Government, 08/2017-12/2018.
+\par \endgroup
+\par \begingroup
+Research Assistant, Johannes-Kepler University (JKU Linz), Faculty of Social Sciences, Economics \& Business, Institute for the Comprehensive Analysis of the Economy, 08/2017-02/2018.
+\par \endgroup
+\par \endgroup
+
+\vspace{0.5cm}
+{\textbf{\large Professional Activities}}
+\par \begingroup \leftskip1em \rightskip4em
+
+\vspace{0.2cm}
+{\large Grants, Fellowships, Projects}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    \textbf{Subjective Expectations and the Impact on the Business Cycle}\hfill \textit{not started}\\
+    \textit{Jubil\"{a}umsfonds Project}, Oesterreichische Nationalbank (OeNB).\\
+    Principal Investigator. EUR 166.000 acquired.\\\\
+    \textbf{Expectations, Fluctuations, and Financial Intermediation}\hfill 02-08/2023\\
+    \textit{Erwin-Schr\"{o}dinger Fellowship}, Austrian Science Fund (FWF).\\
+    Principal Investigator. EUR 85,462 acquired.\\\\
+    \textbf{Expecting the Unexpected: How Belief Formation Changes After News}\hfill 01-10/2020\\
+    \textit{Small-Scale Research Projects by Junior Faculty}, Vienna University of Economics and Business.\\
+    Principal Investigator. EUR 5,000 acquired.
+\par \endgroup
+\clearpage
+\vspace{0.2cm}
+{\large Academic Visits}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    \par \begingroup
+    University of T\"{u}bingen \hfill 03/2023 -- 06/2023 \\
+    Sponsor: Gernot M\"{u}ller
+    \par \endgroup
+    \par \begingroup
+    University of Heidelberg \hfill 11/2023 -- 12/2023 \\
+    Sponsor: Zeno Enders
+    \par \endgroup
+\par \endgroup
+
+\vspace{0.2cm}
+{\large Honors, Awards, Travel Grants}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    Young Economist Award, \textit{Austrian Economic Association}, 2023. \\
+    Applied Economics Meeting Travel Grant, \textit{Asociaci\'on Libre de Economia}, 2023.\\
+    Stephan Koren Award, \textit{Vienna University of Economics and Business}, 2022. \\
+    Award for Excellent Research, \textit{Vienna University of Economics and Business}, 2022. \\
+    Award for Excellent Research, \textit{Vienna University of Economics and Business}, 2021.
+\par \endgroup
+
+\vspace{0.2cm}
+{\large Teaching\footnote{WU = Vienna University of Economics and Business; DA = Vienna School of International Studies; univie = University of Vienna; PLUS = Paris Lodron University of Salzburg.}}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    \textbf{Master Level}: Advanced Macroeconometrics (WU; SS20, SS21); Introduction to Quantitative Methods in Economics (DA; WS21, WS22); Macroeconometrics (WU; SS21, SS22); Macroeconomic Models and Methods (WU; WS19, WS20); Methods in Economics (PLUS; WS22, WS23).
+
+    \textbf{Bachelor Level}: International Macroeconomics (WU; WS19, SS20, WS20); Quantitative Data Analysis (univie; WS19, WS20, WS21, WS22).
+\par \endgroup
+
+\vspace{0.2cm}
+{\large Training / Summer Schools}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    Banking Theory, \textit{Barcelona School of Economics Summer School}, 2021. \\
+    High-Dimensional Time Series Models: Factor Models, \textit{Barcelona School of Economics Summer School}, 2021. \\
+    Formulating and Estimating DSGE Models, \textit{Euro Area Business Cycle Network Training School}, 2021. \\
+    Subjective Inflation Expectations: Measurement, Effects, and Policy Implications, \textit{Euro Area Business Cycle Network Training School}, 2022. \\
+    Macro models with heterogeneous agents and their use for monetary policy based on household-level micro data, \textit{OeNB Summer School}, 2022. \\
+    What's New in Mixed Frequency Data (MIDAS), with Applications to Machine Learning and Big Data, \textit{Euro Area Business Cycle Network Training School}, 2022. \\
+    Computational Macroeconomics, \textit{CEU PhD Seminar by Michael Reiter}, 2022.
+\par \endgroup
+
+\vspace{0.2cm}
+{\large Refereeing}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    Czech Journal of Economics and Finance; Empirica; Empirical Economics; Energy Journal; FIW Conference; International Economics; Journal of International Money and Finance; Journal of Macroeconomics; Labour: Review of Labour Economics and Industrial Relations; Macroeconomic Dynamics; OeNB Jubil\"aumsfonds; Oxford Bulletin of Economics and Statistics; Prague Economic Papers; Spring Meeting of Young Economists; Structural Change and Economic Dynamics.
+\par \endgroup
+
+\vspace{0.2cm}
+{\large Memberships}
+\par \begingroup \leftskip2em \rightskip2em \vspace{-0.2cm}
+    American Economic Association (AEA); Austrian Economic Association (NOeG); European Economic Association (EEA); International Association for Applied Econometrics (IAAE); International Society of Bayesian Analysis (ISBA) / Economics, Finance and Business Section (EFaB); Royal Economic Society (RES); Verein f\"{u}r Socialpolitik (VfS).
+\par \endgroup
+\par \endgroup
+
+\clearpage
+\vspace{0.5cm}
+{\textbf{\large  Skills}}
+\par \begingroup \leftskip1em \rightskip4em
+
+\vspace{0.2cm}
+{\large Languages}
+\par \begingroup \leftskip2em \rightskip2em \vspace*{-0.2cm}
+    German (native), English (fluent), Latin (basic), Italian (beginner).
+\par \endgroup
+
+\vspace{0.2cm}
+{\large Technical Skills}
+\par \begingroup \leftskip2em \rightskip2em \vspace*{-0.2cm}
+    \textbf{Programming Languages}: R (excellent); Matlab (good); Dynare (good), C++ (basic), Julia (basic). \\
+    \textbf{Version Control}: Git (basic). \\
+    \textbf{Typesetting}: \LaTeX, Microsoft Office.
+\par \endgroup
+
+\par \endgroup
+
+
+%----------------------------------------------------------------------------------------
+%      References Section
+%----------------------------------------------------------------------------------------+
+
+% \begin{rSection}{References}
+
+%  \setlength{\columnsep}{50pt}
+%  \begin{multicols}{2}
+%  \cvreference{Jakob Kapeller}
+%  {Assistant Professor}
+%  {Institute for the Comprehensive Analysis of the Economy}
+%  {Johannes Kepler University}
+%  {Linz, Upper Austria}
+%  {jakob.kapeller@jku.at}
+%  {+43 732~$\cdot$~2468 3685}\\
+%  \cvreference{Laurenz Ennser-Jedenastik}
+%  {Assistant Professor}
+%  {Department of Government}
+%  {University of Vienna}
+%  {Vienna}
+%  {laurenz.ennser@univie.ac.at}
+%  {+43 1~$\cdot$~4277 49713}
+%  \end{multicols}
+%  \begin{multicols}{2}
+%  \cvreference{Philipp Piribauer}
+%  {Research Staff Member}
+%  {Structural Change and Regional Economics}
+%  {Austrian Institute of Economic Research}
+%  {Vienna}
+%  {philipp.piribauer@wifo.ac.at}
+%  {+43 1~$\cdot$~798 26 01 494}\\
+%  \cvreference{Florian Huber}
+%  {Professor}
+%  {VWL II}
+%  {Paris-Lodron University Salzburg}
+%  {Salzburg}
+%  {florian.huber@sbg.ac.at}
+%  {+43 662~$\cdot$~8044 3771}
+%  \end{multicols}
+
+% \end{rSection}
+
+\end{document}
